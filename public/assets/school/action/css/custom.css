@@ -1,0 +1,25 @@
+﻿.teaminfo {
+	list-style: disc;
+    list-style: inside;
+}
+
+.teaminfo li { 
+	padding:3px 0px;
+}
+
+/**Popup**/
+#mask {z-index: 10000; position: absolute;background-color: #000; width: 100%; display: none; min-height: 1700px; top: 0px; left: 0px;}
+#popup {z-index: 10000; position: absolute; padding:0; background-color: #FFF; width: 964px; display: none; padding: 15px 18px; border-top: #0096d6 5px solid;
+border-bottom: #0096d6 5px solid;}
+.showPopup {position: absolute;top: 30px;}
+.close {position: absolute;top: 10px; z-index: 100000;}
+.close a { width:32px; height:32px; background:url(../images/close-btn.png) top left no-repeat; display: block; text-indent: -10000px;}
+.close a:link {	background:url(images/close-btn.png) top left no-repeat;}
+.close a:visited {background:url(../images/close-btn.png) top left no-repeat;}
+.close a:hover {background:url(../images/close-btn.png) center left no-repeat;}
+.close a:active { background:url(../images/close-btn.png) bottom left no-repeat;}
+.closenew{ width:32px; height:32px; background:url(../images/close-btn.png) top left no-repeat; cursor:pointer; margin-left:936px;}
+
+
+#popup h2 {margin:0; padding :20px 20px 10px 0;}
+#popup p {margin:0; padding :0 0 10px 0}

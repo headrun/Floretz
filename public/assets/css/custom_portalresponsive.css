@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.content_inner input[type="text"],
+.content_inner input[type="password"],
+.content_inner textarea{
+	margin-bottom:0;
+}
+.content_inner label{
+	margin-bottom:0;
+}
+
+.content_inner select{
+	width:auto;
+	height:auto;
+	padding:0;
+}
+
+.form input[type="text"],
+.form input[type="password"],
+.form textarea{
+	margin-bottom:0;
+}
+.form label{
+	margin-bottom:0;
+}
+
+.form select{
+	width:auto;
+	height:auto;
+	padding:0;
+}
+
+@media (min-width: 1200px) {
+	
+  
+  
+  
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	
+	.content_inner { width: 724px !important;}
+	
+}
+
+@media (max-width: 767px) {
+	
+	body			{ overflow: hidden !important; }
+	.content_inner 	{ width: auto !important;}
+	.portlet-layout { display: block;}
+	.portlet-column { display: block;}
+	
+	
+	
+	
+	
+	
+}
+
+@media (max-width: 480px) {
+	
+	
+	
+}
+
